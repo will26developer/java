@@ -9,7 +9,7 @@ public class Panaderia {
             wait();
         }
         this.pan = masa;
-        System.out.println("El panadero esta horneando el pan");
+        System.out.println("El panadero esta horneando el pan " + pan);
         this.disponible = true;
         notify();
     }
