@@ -1,4 +1,4 @@
-package generics.poo_interfaces.modelos;
+package generics.modelos;
 
 public enum Direccion {
     ASC, DESC

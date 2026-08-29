@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import generics.poo_interfaces.modelos.Cliente;
-import generics.poo_interfaces.modelos.ClientePremium;
+import generics.modelos.Cliente;
+import generics.modelos.ClientePremium;
 
 public class EjemploGenericos {
     public static void main(String[] args) {

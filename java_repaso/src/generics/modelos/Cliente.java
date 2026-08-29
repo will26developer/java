@@ -1,4 +1,4 @@
-package generics.poo_interfaces.modelos;
+package generics.modelos;
 
 public class Cliente {
     private int id;
@@ -16,25 +16,21 @@ public class Cliente {
         this.apellido = apellido;
     }
 
-    public String getNombre() {
-        return nombre;
+    public int getId() {
+        return id;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public String getNombre() {
+        return nombre;
     }
 
     public String getApellido() {
         return apellido;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
-    }
-
     @Override
-
     public String toString() {
-        return "Cliente( id = " + id + " , nombre = " + nombre + " , apellido = " + apellido + ")";
+        return "Cliente [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + "]";
     }
+
 }
